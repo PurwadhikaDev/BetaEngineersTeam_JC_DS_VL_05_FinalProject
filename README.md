@@ -1,11 +1,21 @@
 ﻿# MACHINE LEARNING MODEL FOR PREDICTING PROPERTY VALUE IN PHILADELPHIA
 Created By : BETA ENGINEERS (PURWADHIKA)
+
 Team Members :
 1.  Yehezkiel Gabriel Sutopo
 2.  Yohanna Inawati Santoso
 3.  Risdan Kristori
 
 Data Source : [Philadelphia - Buildings Database](https://www.kaggle.com/datasets/adebayo/philadelphia-buildings-database?select=PHL_OPA_PROPERTIES.csv)
+
+Python Library Versions :
+- numpy 1.22.2
+- pandas 1.4.1
+- matplotlib 3.5.1
+- seaborn 0.11.2
+- sickit-learn 1.1.1
+- category_encoders 2.5.0
+- xgboost 1.6.1
 
 <img src="pic/philadelphia.jpg" alt="isolated" width="1080"/>
 
@@ -33,6 +43,7 @@ Reference:  [https://www.phila.gov/departments/office-of-property-assessment/](h
 -   Model machine learning apakah yang dapat membantu OPA dalam memprediksi nilai properti dengan baik?
 
 **Goals**
+
 Berdasarkan permasalahan tersebut, OPA memerlukan analisis mendalam terkait nilai properti yang ada di Kota Philadelphia dan sebuah 'tool' yang dapat membantu mereka dalam menentukan nilai properti yang tepat berdasarkan karakteristik dari masing-masing properti.
 
 **Analytic Approach**
@@ -114,7 +125,7 @@ Hasilnya adalah XGBoost dengan hyperparameter tuning merupakan model terbaik den
 5.  Model yang telah dibangun memiliki score R-squared sebesar 78,3% yang berarti model yang telah dibangun mampu menjelaskan faktor-faktor yang mempengaruhi market_value sebesar 78,3%.
 
 
-# Recommendation
+## Recommendation
 
 Bagi pemerintah Kota Philadelphia:
 1.  Dengan nilai market_value yang telah ditentukan, maka pemerintah Kota Philadelphia dapat memprediksi pendapatan yang dihasilkan dari pajak properti pada Kota Philadelphia. Hal tersebut dapat menjadi acuan bagi pemerintah untuk membuat anggaran Kota Philadelphia khususnya pada bidang pendidikan untuk periode selanjutnya.
