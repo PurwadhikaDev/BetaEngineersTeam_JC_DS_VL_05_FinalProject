@@ -7,7 +7,7 @@ Team Members :
 
 Data Source : [Philadelphia - Buildings Database](https://www.kaggle.com/datasets/adebayo/philadelphia-buildings-database?select=PHL_OPA_PROPERTIES.csv)
 
-<img src="philadelphia.jpg" alt="isolated" width="800"/>
+<img src="philadelphia.jpg" alt="isolated" width="1080"/>
 
 # Contents
 
