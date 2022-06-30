@@ -105,9 +105,9 @@ Membandingkan Linear Regression, Random Forest Regressor dan XGBoost Regressor.
 Berikut ini list perbandingan yang telah dilakukan :
 | **Model Description** | **Data Set** | **MAPE Score** | **RSquared Score** |
 | --- | --- | --- | --- |
-| Linear Regression | Train | -1.182605e+14 | 2.365211e+14 |
-| Random Forest Regressor | Train | -2.042737e-01 | 2.810548e-03 |
-| XGBoost Regressor | Train | -2.401568e-01 | 2.057117e-03 |
+| Linear Regression | Train | -1.182605e+14 | - |
+| Random Forest Regressor | Train | -2.042737e-01 | - |
+| XGBoost Regressor | Train | -2.401568e-01 | - |
 | Random Forest Regressor | Test | 0.238641 | 0.780251 |
 | XGBoost Regressor | Test | 0.361665 | 0.782011 |
 | XGBoost + Hyperparameter | Train | -0.243690 | - |
